@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/yanglog/static/css/main.6b84de78.chunk.css",
-    "main.js": "/yanglog/static/js/main.5e9ad1cf.chunk.js",
-    "main.js.map": "/yanglog/static/js/main.5e9ad1cf.chunk.js.map",
+    "main.js": "/yanglog/static/js/main.d263d9f3.chunk.js",
+    "main.js.map": "/yanglog/static/js/main.d263d9f3.chunk.js.map",
     "runtime-main.js": "/yanglog/static/js/runtime-main.c76ae968.js",
     "runtime-main.js.map": "/yanglog/static/js/runtime-main.c76ae968.js.map",
     "static/js/2.3abd9413.chunk.js": "/yanglog/static/js/2.3abd9413.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c76ae968.js",
     "static/js/2.3abd9413.chunk.js",
     "static/css/main.6b84de78.chunk.css",
-    "static/js/main.5e9ad1cf.chunk.js"
+    "static/js/main.d263d9f3.chunk.js"
   ]
 }
