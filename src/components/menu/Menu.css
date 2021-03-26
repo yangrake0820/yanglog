@@ -1,0 +1,31 @@
+div .menu{
+  text-align:center;
+  width:100%;
+  height: 30%;
+  line-height:50px;/*li에 display:inline-block>>div:line-height 세로가운데 정렬 적용*//* 상하padding에 상하조절*/
+
+}
+
+ul{
+  margin:0; padding:0; list-style:none;
+  width:500px; text-align:center;
+  margin: 0 auto;
+  font-size: 0;/*넣어줘야 메뉴카테로기 셀사이에 간격없이 딱붙여서 적용됨*/
+}
+
+li{
+  display:inline-block;
+  width:100px; height:50px; /*padding:5px 0;*/
+  vertical-align:middle; /*li 메뉴바높이 있어도 세로가운데정렬 적용안됨>>td에만 적용됨>>display를 td로바꿔줘야>>ul에 display로 table속성을 줘서 왼쪽 치우친것 펼쳐 정렬되도록*/
+  display: inline-block;
+  font-size:15px;
+
+}
+
+li:hover{
+  background-color:#c5f7f6;
+}
+
+a link:a visited{
+  text-decoration:none;
+}
