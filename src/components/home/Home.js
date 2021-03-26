@@ -2,7 +2,7 @@ import React from 'react';
 
 const checkUrl = () => {
     var link = document.location.href;
-    if (link === 'http://localhost:3002/yanglog/') {
+    if (link === 'https://yangrake0820.github.io/yanglog/') {
         return true;
     } else {
         return false;
