@@ -1,11 +1,22 @@
 import React from 'react';
+import { createGlobalStyle } from 'styled-components';
+import TodoHead from './components/TodoHead';
+import TodoTemplate from './components/TodoTemplate';
+
+const GlobalStyle = createGlobalStyle`
+    body {
+        background: #e9ecef;
+    }
+`;
 
 const TodoList = () => {
     return (
-        <div>
-            <h1>TodoList</h1>
-            <p>이 프로젝트는 리액트 라우터 기초를 실습해보는 예제 프로젝트랍니다.</p>
-        </div>
+        <>
+            <GlobalStyle />
+            <TodoTemplate>
+                <TodoHead />
+            </TodoTemplate>
+        </>
     );
 };
 
