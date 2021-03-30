@@ -1,10 +1,12 @@
 import React from 'react';
+import 'antd/dist/antd.css';
+import MovieSearch from './container/MovieSearch';
+import './component/MovieCard.scss';
 
 const Api = () => {
     return (
-        <div>
-            <h1>API</h1>
-            <p>이 프로젝트는 리액트 라우터 기초를 실습해보는 예제 프로젝트랍니다.</p>
+        <div className="movie">
+            <MovieSearch />
         </div>
     );
 };

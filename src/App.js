@@ -5,7 +5,6 @@ import TodoList from './components/todoLIst/TodoList';
 import Home from './components/home/Home';
 import Parameter from './components/parameter/Prameter';
 import Menu from './components/menu/Menu';
-import Account from './components/account/Account';
 
 function App() {
     return (
@@ -18,7 +17,6 @@ function App() {
             <Route path="/api" component={Api} />
             <Route path="/todolist" component={TodoList} />
             <Route path="/parameter/:username" component={Parameter} />
-            <Route path="/account" component={Account} />
         </div>
     );
 }

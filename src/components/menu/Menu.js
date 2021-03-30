@@ -15,9 +15,6 @@ const Menu = () => {
                 <li>
                     <Link to="/todolist">TODOLIST</Link>
                 </li>
-                <li>
-                    <Link to="/account">ACCOUNT</Link>
-                </li>
             </ul>
         </div>
     );
